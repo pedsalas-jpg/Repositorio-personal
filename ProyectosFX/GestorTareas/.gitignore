@@ -1,0 +1,7 @@
+# Archivos de datos del usuario
+tareas.txt
+
+# Carpetas y archivos generados por el sistema/IDE
+target/
+.idea/
+*.iml

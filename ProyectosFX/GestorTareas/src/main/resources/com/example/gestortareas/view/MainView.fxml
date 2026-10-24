@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" style="-fx-padding: 20;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestortareas.controller.TaskController">
+    <Label text="Gestor de Tareas" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+    <HBox spacing="10">
+        <TextField fx:id="campoTarea" promptText="Nueva tarea..." HBox.hgrow="ALWAYS" />
+        <Button text="Agregar" onAction="#agregarTarea" />
+    </HBox>
+    <ListView fx:id="listaTareas" VBox.vgrow="ALWAYS" />
+    <Button text="Eliminar Seleccionada" onAction="#eliminarTarea" />
+</VBox>
