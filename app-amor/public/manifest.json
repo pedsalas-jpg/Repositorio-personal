@@ -1,0 +1,16 @@
+{
+  "short_name": "App Amor",
+  "name": "Nuestro Tiempo Juntos",
+  "icons": [
+    {
+      "src": "nosotros.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/app-amor/",
+  "background_color": "#fff0f3",
+  "theme_color": "#ff7675",
+  "display": "standalone",
+  "orientation": "portrait"
+}
